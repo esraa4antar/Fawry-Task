@@ -18,24 +18,32 @@ Help menu with --help
 
 ## 📑 Options:
 Option | Description
+
 -n | Show line numbers for each matching line
+
 -v | Invert match (show lines that do not match)
+
 --help | Show help information
 
 ## 📂 Example Commands
 Search for 'hello' in 'testfile.txt'
+
 ./mygrep.sh hello testfile.txt
 
 Search and show line numbers
+
 ./mygrep.sh -n hello testfile.txt
 
 Invert match and show line numbers
+
 ./mygrep.sh -vn hello testfile.txt
 
 Invert match without line numbers
+
 ./mygrep.sh -v hello testfile.txt
 
 Show help
+
 ./mygrep.sh --help
 
 

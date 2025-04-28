@@ -23,19 +23,19 @@ Option | Description
 --help | Show help information
 
 ## 📂 Example Commands
-# Search for 'hello' in 'testfile.txt'
+Search for 'hello' in 'testfile.txt'
 ./mygrep.sh hello testfile.txt
 
-# Search and show line numbers
+Search and show line numbers
 ./mygrep.sh -n hello testfile.txt
 
-# Invert match and show line numbers
+Invert match and show line numbers
 ./mygrep.sh -vn hello testfile.txt
 
-# Invert match without line numbers
+Invert match without line numbers
 ./mygrep.sh -v hello testfile.txt
 
-# Show help
+Show help
 ./mygrep.sh --help
 
 
